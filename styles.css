@@ -29,12 +29,10 @@ body {
   cursor: pointer;
 }
 
-.row{
-    margin-right: 0px!important;
-    margin-left: 0px!important;
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
-
-
 
 .circle1 {
   border: 15px solid #5671f5;
@@ -81,25 +79,23 @@ body {
   }
 }
 
-.circle1:hover,
-.circle2:hover,
-.circle3:hover,
-.circle4:hover {
+.active:hover {
   opacity: 0.7;
-  /* box-shadow: none;
- transform: scale(0.95);*/
 }
 
-.circle1:active,
-.circle2:active,
-.circle3:active,
-.circle4:active {
-   box-shadow: none;
- transform: scale(0.95);
+.active:active {
+  box-shadow: none;
+  transform: scale(0.95);
 }
+
+.click{
+  box-shadow: none;
+  transform: scale(0.95);
+}
+
+
 .navbar {
   border: 3px solid hsla(0, 0%, 100%, 0.11);
-
 }
 
 .roundsboard {

@@ -10,5 +10,5 @@ Project built as a task for the program [Argentina Programa](https://argentinapr
 
 # Installation
 * Clone this repository 
-* Run npm in the command line of the new file
-* Run the live version of the index.html or open the file
+* Run npm in the command line of the new folder
+* Run the live version of the index.html file or open it
