@@ -2,11 +2,11 @@
 
 Play one of the most popular games in the World. Try to repeat the secuence of the computer. Can you beat it?
 
-Project built as a task for the program [!Argentina Programa](www.argentinaprograma.com) using HTML, Bootstrap, CSS and JavaScript
+Project built as a task for the program [!Argentina Programa](https://argentinaprograma.com/) using HTML, Bootstrap, CSS and JavaScript
 
 # Screens
 
- [game](./images/backgroundPic.png)
+ [game](./images/background.png)
 
 # Installation
 * Clone this repository 
