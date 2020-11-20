@@ -9,6 +9,12 @@ $empezar.onclick = playGame
 
 //Inicio juego o ronda
 function playGame() {
+
+    if (rounds === 3) {
+        gameWon()
+        return
+    }
+
     $empezar.style.visibility = 'hidden'
     updateAlert("Turno de la Compu, espere y preste atención")
     updateRound(rounds)
@@ -93,6 +99,7 @@ function updateRound(number) {
     $round.innerText = number
 }
 
+
 function gameLost() {
     updateRound(0)
     rounds = 0
@@ -101,7 +108,17 @@ function gameLost() {
     desactivateUserTurn()
     updateAlert("Ha perdido el juego!!", "lost")
     $empezar.style.visibility = 'visible'
+}
 
+function gameWon() {
+    alert("Me rindo, eres demasiado bueno!")
+    updateRound(0)
+    rounds = 0
+    computerSecuenceArray = []
+    userComputerArray = []
+    desactivateUserTurn()
+    updateAlert("GANASTE!!")
+    $empezar.style.visibility = 'visible'
 }
 
 
