@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --radialGradient: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  --darkText: #3b4363;
+  --scoreText: #2a46c0;
+}
+
+body {
+  background-image: var(--radialGradient);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff !important;
+}
+
+.imageBorder {
+  width: 12rem;
+  height: 12rem;
+  margin: auto;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.row{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+
+
+.circle1 {
+  border: 15px solid #5671f5;
+  background-color: #5671f5;
+  box-shadow: 5px 14px #4865f4;
+}
+
+.circle2 {
+  border: 15px solid #eca922;
+  background-color: #eca922;
+  box-shadow: 5px 14px #ec9e0e;
+}
+
+.circle3 {
+  border: 15px solid #dd405d;
+  background-color: #dd405d;
+  box-shadow: 5px 14px #dc2e4e;
+}
+.circle4 {
+  border: 15px solid #59886b;
+  background-color: #59886b;
+  box-shadow: 5px 14px #3a7a52;
+}
+
+@media screen and (max-width: 768px) {
+  .imageBorder {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .circle1 {
+    box-shadow: 5px 5px #4865f4;
+  }
+
+  .circle2 {
+    box-shadow: 5px 5px #ec9e0e;
+  }
+
+  .circle3 {
+    box-shadow: 5px 5px #dc2e4e;
+  }
+  .circle4 {
+    box-shadow: 5px 5px #3a7a52;
+  }
+}
+
+.circle1:hover,
+.circle2:hover,
+.circle3:hover,
+.circle4:hover {
+  opacity: 0.7;
+  /* box-shadow: none;
+ transform: scale(0.95);*/
+}
+
+.circle1:active,
+.circle2:active,
+.circle3:active,
+.circle4:active {
+   box-shadow: none;
+ transform: scale(0.95);
+}
+.navbar {
+  border: 3px solid hsla(0, 0%, 100%, 0.11);
+
+}
+
+.roundsboard {
+  color: #000;
+  background: #fff;
+  text-align: center;
+  padding: 0.4rem 1.6rem;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+.roundsboard-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--scoreText);
+  letter-spacing: 1.1px;
+}
+
+.roundsboard-text {
+  color: var(--darkText);
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+
+.button_empezar {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.button_empezar:hover {
+  background-color: #4a6687;
+}
