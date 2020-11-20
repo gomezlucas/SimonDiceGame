@@ -6,7 +6,7 @@ Project built as a task for the program [Argentina Programa](https://argentinapr
 
 # Screens
 
- [game](./images/background.png)
+ ![game](./images/background.png)
 
 # Installation
 * Clone this repository 
